@@ -31,6 +31,8 @@ jobs:
           path: ./artifacts
 
       - name: Display content
-        run:  ls -lart
+        run:  |
+         cd  artifacts
+         ls -lart
           
        
