@@ -31,8 +31,6 @@ jobs:
           path: ./artifacts
 
       - name: Display content
-        run:  |
-         cd  artifacts
-         ls -lart
+        run:  cat ./artifacts/hello.txt
           
        
